@@ -14,29 +14,23 @@
     <style>
         :root { --am: #ffcc00; --az: #0033ab; --ro: #ff0000; --bg: #0f0f0f; --card: #1a1a1a; --green: #25D366; }
         body { font-family: 'Segoe UI', sans-serif; background-color: var(--bg); color: #e0e0e0; margin: 0; padding: 10px; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
-        
-        /* HEADER ESTILO TRICOLOR */
         .header-box { text-align: center; margin-bottom: 20px; width: 100%; max-width: 400px; }
         .brand { font-size: 28px; font-weight: 900; letter-spacing: -1px; margin: 0; }
         .t-am { color: var(--am); } .t-az { color: var(--az); } .t-ro { color: var(--ro); }
         .subtitle { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-top: 5px; font-weight: 600; }
-        
         .card { background: var(--card); padding: 20px; border-radius: 15px; width: 100%; max-width: 400px; border: 1px solid #333; box-sizing: border-box; margin-bottom: 10px; text-align: center; position: relative; }
         input, textarea, select { width: 100%; padding: 12px; margin-bottom: 12px; border: 1px solid #444; border-radius: 8px; background-color: #252525; color: white; outline: none; box-sizing: border-box; }
         button { width: 100%; padding: 15px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; margin-top: 10px; font-size: 16px; transition: 0.3s; }
-        
         .btn-go { background: var(--green); color: white; }
         .btn-blue { background: var(--az); color: white; }
         .btn-ghost { background: #333; color: #fff; border: 1px solid #444; }
         .btn-del { background: var(--ro); color: white; padding: 10px; width: auto; font-size: 14px; margin: 0; border-radius: 8px; }
-        
         .admin-section { border-top: 1px solid #333; padding-top: 15px; margin-top: 15px; text-align: left; }
         .scroll-area { max-height: 250px; overflow-y: auto; margin-top: 10px; border-radius: 8px; background: #000; padding: 10px; }
         .item-list { background: #1a1a1a; padding: 12px; border-radius: 10px; margin-bottom: 10px; border-left: 5px solid var(--az); display: flex; justify-content: space-between; align-items: center; }
         .item-list.finalizado { border-left-color: var(--green); }
         .check-center { font-size: 20px; color: var(--green); flex-grow: 1; text-align: center; }
         .badge { background: var(--az); color: white; padding: 2px 8px; border-radius: 10px; font-size: 11px; }
-        
         .footer { font-size: 10px; color: #555; margin: 20px 0; text-align: center; width: 100%; }
         .hidden { display: none !important; }
         @keyframes spin { 100% { transform: rotate(360deg); } }
@@ -49,7 +43,7 @@
         <h1 class="brand">
             <span class="t-am">HACK</span><span class="t-az">TECH</span><span class="t-ro">NOLOGY</span>
         </h1>
-        <div class="subtitle">Hacktechnology Técnicos • v9.0</div>
+        <div class="subtitle">Seguridad Informática • Técnicos Pro</div>
     </div>
 
     <div id="p-login" class="card">
@@ -102,11 +96,10 @@
     </div>
 
     <div class="footer">
-        © 2026 Hacktechnology Técnicos - Todos los derechos reservados.
+        © 2026 Hacktechnology - Todos los derechos reservados.
     </div>
 
 <script>
-    // URL de tu Google Apps Script
     const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxdxxc64bUVzEGbKWTRRKAoDhHGLFZ3yfibL-4yLgFywQa3EN15PCtGGWBfySdRCKdr/exec";
     
     let db = JSON.parse(localStorage.getItem('hackDB_v5')) || {
@@ -268,4 +261,5 @@
 </script>
 </body>
 </html>
+
                                    
