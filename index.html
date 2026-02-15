@@ -1,9 +1,16 @@
-<!DOCTYPE html>                                    <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacktechnology Pro - v9.0</title>
+    
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <meta name="theme-color" content="#0f0f0f">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+
     <style>
         :root { --am: #ffcc00; --az: #0033ab; --ro: #ff0000; --bg: #0f0f0f; --card: #1a1a1a; --green: #25D366; }
         body { font-family: 'Segoe UI', sans-serif; background-color: var(--bg); color: #e0e0e0; margin: 0; padding: 10px; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
@@ -42,7 +49,7 @@
         <h1 class="brand">
             <span class="t-am">HACK</span><span class="t-az">TECH</span><span class="t-ro">NOLOGY</span>
         </h1>
-        <div class="subtitle">Seguridad Informática • Soporte Técnico • Redes</div>
+        <div class="subtitle">Hacktechnology Técnicos • v9.0</div>
     </div>
 
     <div id="p-login" class="card">
@@ -95,10 +102,11 @@
     </div>
 
     <div class="footer">
-        © 2026 Hacktechnology - Todos los derechos reservados.
+        © 2026 Hacktechnology Técnicos - Todos los derechos reservados.
     </div>
 
 <script>
+    // URL de tu Google Apps Script
     const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxdxxc64bUVzEGbKWTRRKAoDhHGLFZ3yfibL-4yLgFywQa3EN15PCtGGWBfySdRCKdr/exec";
     
     let db = JSON.parse(localStorage.getItem('hackDB_v5')) || {
@@ -260,3 +268,4 @@
 </script>
 </body>
 </html>
+                                   
